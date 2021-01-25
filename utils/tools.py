@@ -231,5 +231,3 @@ def object_statistics(file_path, number):
 
 def search_max_boxes(txt_fpath):
     return max([len(_.strip().split(' ')) for _ in open(txt_fpath,'r').readlines()])
-
-print(search_max_boxes(r'D:\jiyuhang\new_experiments\release\data_process\test.txt'))

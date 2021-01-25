@@ -30,7 +30,7 @@ RANDOM_DATA = True
 EPOCHS = 100
 LOG_DIR = "./logs"
 SAVE_MODEL_DIR = "./logs/net"
-MAX_TRUE_BOX_NUM_PER_IMG = 42
+MAX_TRUE_BOX_NUM_PER_IMG = 36  # recommend value in this dataset
 SAVE_FREQUENCY = 20
 TEST_FREQUENCY = 1
 
@@ -41,12 +41,12 @@ START_STEP = None
 # Lr_schedule
 INITIAL_LEARNING_RATE = 0.0001
 DECAY_RATE = 0.50
-DECAY_STEP = int(546*18*BATCH_SIZE/4)
+DECAY_STEP = int(546*18/BATCH_SIZE)  # 546 is the count of training samples
 
 # NMS
 CONFIDENCE_THRESHOLD = 0.10
 IOU_THRESHOLD = 0.50
-MAX_BOX_NUM = 36  # recommend value in this dataset
+MAX_BOX_NUM = int(MAX_TRUE_BOX_NUM_PER_IMG*1.5)  
 
 CATEGORY_DICTIONARY = {
         0: "仙人", 1: "龙", 2: "凤", 3: "狮子", 4: "海马", 5: "天马", 6: "狎鱼",
