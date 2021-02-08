@@ -11,7 +11,7 @@
   1.tensorflow 2.3  
   2.numpy  
   3.pillow  
-  4.opencv
+  4.opencv  
   5.matplotlib
 ## How to use
 ### Data Preparing
