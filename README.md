@@ -1,7 +1,7 @@
 # Ridge-Beast-Detection
 ![image](https://github.com/YuhangJi/Ridge-Beast-Detection/blob/main/demo/demo.jpg)
 ## Introduction
-  A implementation of improved nural network based on YOLOv3.  
+  An implementation of improved nural network based on YOLOv3.  
 ## Core Proposals
   1.deep aggregated features  
   2.SE block  
