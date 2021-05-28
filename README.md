@@ -3,7 +3,7 @@
 ## Introduction
   An implementation of improved nural network based on YOLOv3.  
 ## Core Proposals
-  1.Deep Polymeric Features 
+  1.Deep Polymeric Features  
   2.SE block  
   3.Multi-scale Convolutional Structure  
   4.Open Source Dataset: [link](https://blog.csdn.net/weixin_45482843/article/details/106905824)
