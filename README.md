@@ -3,10 +3,10 @@
 ## Introduction
   An implementation of improved nural network based on YOLOv3.  
 ## Core Proposals
-  1.deep aggregated features  
+  1.Deep Polymeric Features 
   2.SE block  
-  3.Multi-scale convolutional structure  
-  4.open source dataset: [link](https://blog.csdn.net/weixin_45482843/article/details/106905824)
+  3.Multi-scale Convolutional Structure  
+  4.Open Source Dataset: [link](https://blog.csdn.net/weixin_45482843/article/details/106905824)
 ## Environment
   1.tensorflow 2.3  
   2.numpy  
@@ -15,11 +15,11 @@
   5.matplotlib
 ## How to use
 ### Data Preparing
-  If you want to train your own dataset using this model, you need to label your dataset. And the annotation tool has been provided. You should better use it within english directory. If you want to train a model for detecting tidge beasts, although few people will like to do this, please download corresponding dataset as above link of open source dataset.  
+  If you want to train your own dataset using this model, you need to label your dataset. And the annotation tool has been provided. You are advised to use it within english directory. If you want to train a model for detecting the ridge beast, although few people will like to do this, please download corresponding dataset as above link of open source dataset.  
 ### Data splitting
-  The py file "./data_process/split_data.py" is to split dataset into train set and test set. You also use exsited "test.txt" and "train.txt" to get a result as the same my works, but you have to write new code to handle the part of image directory by youself.  
+  The py file "./data_process/split_data.py" is to split dataset into train set and test set. You also use exsited "test.txt" and "train.txt" to get a result as the same as my works, but you have to write new code to handle the part of image directory by youself.  
 ### Configuration
-  "./config.py" includes whole parameters about training and testing, adjusting according to your needs is advised.
+  "./config.py" includes whole parameters about training and testing.
 ### Training
   Input the command "python main.py" to train a new model.
 ### Testing
