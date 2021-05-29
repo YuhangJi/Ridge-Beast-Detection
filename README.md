@@ -6,7 +6,8 @@
   1.Deep Polymeric Features  
   2.SE block  
   3.Multi-scale Convolutional Structure  
-  4.Open Source Dataset: [link](https://blog.csdn.net/weixin_45482843/article/details/106905824)
+  Open Source Dataset: [link](https://blog.csdn.net/weixin_45482843/article/details/106905824)  
+  Video Detection: [link](https://www.bilibili.com/video/BV1Mv4y1Z7QB?from=search&seid=5132899892707047645)
 ## Environment
   1.tensorflow 2.3  
   2.numpy  
